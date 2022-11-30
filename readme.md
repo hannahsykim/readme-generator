@@ -14,6 +14,8 @@
 
   ## Description <a id="description"></a>
   A generator that helps create a README file for your Github repository through node js and Inquirer Node Package.
+
+  See <a href="https://youtu.be/3gcm1_G-seo">walkthrough</a> here.
   ## Installation <a id="installation"></a>
   Clone the repository to your system, then install npm into your command line. Make sure you have node installed.
   ## Usage <a id="usage"></a>
