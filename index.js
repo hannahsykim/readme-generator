@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
+const markdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -35,7 +35,7 @@ const questions = [
         type: "list",
         message: "What is this project licensed under?",
         name: "license",
-        choices: ['MIT', 'PLHR', 'NONE'],
+        choices: ['MIT', 'ISC', 'ODC'],
         filter(val) {
             return val.toLowerCase();
         }
@@ -71,7 +71,7 @@ function writeToFile(fileName, data) {
 function init() {
     return inquirer.prompt(questions)
     .then(response => {
-           const md = generateMarkdown(response)
+           const md = markdown.generateMarkdown(response);
            writeToFile(`${response.fileName}.md`, md, function(err) {
             if (err){
                 console.log('Could not save file', err)
