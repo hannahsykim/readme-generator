@@ -47,28 +47,27 @@
   ${this.renderLicenseBadge(data.license)}
 
   ## Table of content: 
-  - [Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Contribution](#Contributing)
-  - [Tests](#Tests)
-  - [License](#License)
-  - [Questions](#Question)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
 
-  ## Description <a name="Description"></a>
+  ## Description <a id="description"></a>
   ${data.description}
-  ## Installation <a name="Installation"></a>
+  ## Installation <a id="installation"></a>
   ${data.installation}
-  ## Usage <a name="Usage"></a>
+  ## Usage <a id="usage"></a>
   ${data.usage}
-  ## Contribution <a name="Contribution"></a>
+  ## Contribution <a id="contribution"></a>
   ${data.contributing}
-  ## Tests <a name="Tests"></a>
+  ## Tests <a id="tests"></a>
   ${data.tests}
-  ## License <a name="License"></a>
+  ## License <a id="license"></a>
   ${this.renderLicenseSection(data.license)}
-    
-  ## Questions  <a name="Question"></a>
+  ## Questions <a id="questions"></a>
   ${data.email}
   ${data.github}
   

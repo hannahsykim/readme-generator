@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is this for?",
+        message: "How is this used?",
         name: "usage"
     },
     {
@@ -42,12 +42,12 @@ const questions = [
     },
     {
         type: "input",
-        message: "Any contribution?",
+        message: "What if someone wants to contribute?",
         name: "contributing"
     },
     {
         type: "input",
-        message: "Any tests?",
+        message: "How to test?",
         name: "tests"
     },
     {
